@@ -1,12 +1,50 @@
 PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Example (0.0.1):
+    - AFNetworking (~> 2.5.4)
+    - Example/no-arc (= 0.0.1)
+  - Example/no-arc (0.0.1):
+    - AFNetworking (~> 2.5.4)
   - FBRetainCycleDetector (0.1.2)
 
 DEPENDENCIES:
+  - Example (from `http://dev.dianmi365.com:18182/svn/Dianmi.IOS.BaseFramework/common/Example`)
   - FBRetainCycleDetector
 
+EXTERNAL SOURCES:
+  Example:
+    :svn: http://dev.dianmi365.com:18182/svn/Dianmi.IOS.BaseFramework/common/Example
+
+CHECKOUT OPTIONS:
+  Example:
+    :revision: '639'
+    :svn: http://dev.dianmi365.com:18182/svn/Dianmi.IOS.BaseFramework/common/Example
+
 SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Example: 1e93cb0ec2f0d48f37c4eac7912274c03fe3c1cf
   FBRetainCycleDetector: 45462f9ed1af0cd77224a4cc4e6dacaca47371b4
 
-PODFILE CHECKSUM: 38741d1572d2c8740a441bc6562c61fa2ce1ef2e
+PODFILE CHECKSUM: 75351c9d8e5d8694884d769df255f70ca53ba306
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.2.0
